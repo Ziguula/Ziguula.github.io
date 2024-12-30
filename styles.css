@@ -1,0 +1,88 @@
+
+body {
+    background-color: #000000e8;
+	
+}
+
+.banner {
+    color: #6e649b; 
+	    background-color: #150d1f; /* Dark banner color */
+        padding: 20px;
+        text-align: center;
+        width: 100vw; /* Fill the entire page width */
+        height: 100px; /* Set a fixed height */
+        border-bottom: 1px solid #333; /* Add a bottom border */
+        margin-left: -50vw; /* Offset left margin */
+        margin-right: -50vw; /* Offset right margin */
+        left: 50%; /* Position left edge at 50% */
+        position: relative; /* Use relative positioning */
+        border-bottom: 1px solid #3f406d;
+}
+
+nav {
+	background-color: #130d25; /* Dark blue nav bar color */
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    justify-content:left;
+}
+
+nav li {
+	margin-right: 30px; /* Group links closer together */
+}
+
+nav a {
+	color: #faf6f6ea; /* White text */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #9c9ba3; /* Light gray on hover */
+}
+
+main {
+    
+	min-height: 100vh; /* Take up full viewport height */
+	display: flex; /* Use flexbox */
+	flex-direction: column; /* Stack elements vertically */
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+    color: #cac9cac7;
+}
+
+.picture {
+	width: 50%; /* Set picture width */
+}
+
+.picture img {
+	width: 100%; /* Set image width */
+	height: auto; /* Maintain aspect ratio */
+}
+
+.text-area {
+	width: 50%; /* Set text area width */
+}
+
+footer {
+	background-color: #140d16af; /* Dark footer color */
+	padding: 5px;
+	text-align: center;
+	clear: both; /* Clear floats */
+    width: 100%; /* Fill the entire bottom section */
+    height: 35px;
+    bottom: 0;
+    position: fixed;
+    color: #b4b4b4;
+
+}
