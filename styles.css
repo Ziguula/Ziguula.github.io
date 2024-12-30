@@ -79,7 +79,7 @@ footer {
 	padding: 5px;
 	text-align: center;
 	clear: both; /* Clear floats */
-    width: 100%; /* Fill the entire bottom section */
+    width: 100vw; /* Fill the entire bottom section */
     height: 35px;
     bottom: 0;
     position: fixed;
