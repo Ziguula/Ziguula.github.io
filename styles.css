@@ -2,16 +2,46 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1b0519;
 }
-
+.banner {
+    background-image: linear-gradient(to bottom, #68207c, #050307);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #1d0727;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #b46fb1;
+    text-align: center;
+    text-shadow: #8342c4 2px 2px 5px;
+}
+.blog-header {
+    background-image: linear-gradient(to bottom, #68207c, #050307);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #1d0727;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #b46fb1;
+    text-align: center;
+    text-shadow: #8342c4 2px 2px 5px;
+}
 .navbar {
-    background-color: #45224d;
+    background-color: #2d1c31;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #a19696;
     text-shadow: #0a0209 3px 3px 3px;
     padding: 1em;
     text-align: center;
-    border-bottom: 2px solid #30093b;
+    border-bottom: 1px solid #231827;
     
 }
 
@@ -35,20 +65,6 @@ body {
     color: #b991c2;
 }
 
-.banner {
-    background-image: linear-gradient(to bottom, #68207c, #050307);
-    background-size: 100% 300px;
-    background-position: 0% 100%;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    color: #b46fb1;
-    text-shadow: #8342c4 2px 2px 5px;
-    border-bottom: 1px solid #240830;
-}
 
 .container {
     display: flex;
@@ -56,32 +72,100 @@ body {
   }
   
   .left-panel, .right-panel {
-    background-color: #1b0519;
-    width: 10%; /* Reduced from 15% */
+    background-color: #160916;
+    width: 5%; /* Reduced from 15% */
     padding: 10px; /* Adjust padding */
   }
   
   .main-content {
     flex: 1; /* Expand to fill available space */
     padding: 20px;
-    background-color: #d59bf7ab;
-    color: #490a49;
+    background-color: #190e1f;
+    color: #b8b5b5;
     text-shadow: #a88fc0 1px 1px 1px;
     overflow-y: auto; /* Enable vertical scrolling */
     position: relative;
+    text-align: center;
   }
   
   .image-placeholder {
     width: 100%;
     height: 200px;
-    background-color: #eaeaea; /* Light gray for visibility */
-    border: 1px dashed #ccc;
+  
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #999;
+    color: #000000;
     font-style: italic;
+  }
+  .image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .blog-card {
+    background-color: #190e1f;
+    color: #c9c9c9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .blog-card:hover {
+    transform: scale(1.05);
+  }
+
+  .blog-card img {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+
+  .blog-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .blog-date {
+    font-size: 14px;
+    color: rgb(182, 180, 180);
+  }
+
+  .full-blog {
+    display: none;
+    padding: 20px;
+    background-color: #190e1f;
+    color: #c7c7c7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 85%;
+    border-radius: 8px;
+  }
+
+  .back-button {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #45224d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .back-button:hover 
+  {
+    background-color: #5c3265;
   }
   
 
@@ -91,7 +175,7 @@ footer {
     margin: 0 auto;
     color: #d6d6d6;
     text-align: center;
-    padding: 9px;
+    padding: 5px;
     font-size: small;
     
 }
