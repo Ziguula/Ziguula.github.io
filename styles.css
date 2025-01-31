@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b0519;
+    background-color: #190e1f;
 }
 .banner {
     background-image: linear-gradient(to bottom, #68207c, #050307);
@@ -15,9 +15,9 @@ body {
     border-bottom: 2px solid #1d0727;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    color: #b46fb1;
+    color: #cec3cd;
     text-align: center;
-    text-shadow: #8342c4 2px 2px 5px;
+    text-shadow: #1d0322f8 2px 2px 5px;
 }
 .blog-header {
     background-image: linear-gradient(to bottom, #68207c, #050307);
@@ -30,9 +30,9 @@ body {
     border-bottom: 2px solid #1d0727;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    color: #b46fb1;
+    color:  #cec3cd;
     text-align: center;
-    text-shadow: #8342c4 2px 2px 5px;
+    text-shadow: #1d0322f8 2px 2px 5px;
 }
 .navbar {
     background-color: #2d1c31;
@@ -73,13 +73,13 @@ body {
   
   .left-panel, .right-panel {
     background-color: #160916;
-    width: 5%; /* Reduced from 15% */
-    padding: 10px; /* Adjust padding */
+    width: 10%; /* Reduced from 15% */
+    padding: 5px; /* Adjust padding */
   }
   
   .main-content {
     flex: 1; /* Expand to fill available space */
-    padding: 20px;
+    padding: 0px;
     background-color: #190e1f;
     color: #b8b5b5;
     text-shadow: #a88fc0 1px 1px 1px;
@@ -91,8 +91,7 @@ body {
   .image-placeholder {
     width: 100%;
     height: 200px;
-  
-    margin-bottom: 20px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +111,7 @@ body {
   }
   
   .blog-card {
-    background-color: #190e1f;
+    background-color: #2f1e38;
     color: #c9c9c9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -170,7 +169,7 @@ body {
   
 
 footer {
-    background-color: #17061b;
+    background-color:#2d1c31;
     width: auto;
     margin: 0 auto;
     color: #d6d6d6;
